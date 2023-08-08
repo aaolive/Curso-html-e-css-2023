@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div>
+        Cadastro
+        <form action="">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+        </form>
+    </div>
+
+    <br>
+    <div>
+        <p>Escolha uma cidade:</p>
+        
+        <form action="">
+            <!-- Usando radio button-->
+            <!--
+                Deve se colocar o mesmo atributo 'name' em todo 'input' para permitir uma seleção única.
+            -->
+            <input type="radio" id="salvador" name="selecao-cidade" value="Salvador">
+            <label for="salvador">Salvador</label><br>
+
+            <input type="radio" id="rio de janeiro" name="selecao-cidade" value="Rio de Janeiro">
+            <label for="rio de janeiro">Rio de Janeiro</label><br>
+
+            <input type="radio" id="curitiba" name="selecao-cidade" value="Curitiba">
+            <label for="curitiba">Curitiba</label><br>
+        </form>
+    </div>
+
+    <br>
+    <div>
+        <!--
+            input tipo checkbox serve para selecionar vários itens
+        -->
+        <p>Supermecado</p>
+        <form action="">
+            <input type="checkbox" name="produto" id="feijao">
+            <label for="feijao">feijão</label><br>
+
+            <input type="checkbox" name="produto" id="arroz">
+            <label for="arroz">arroz</label><br>
+
+            <input type="checkbox" name="produto" id="carne" value="carne">
+            <label for="carne">carne</label><br>
+        </form>
+    </div>
+
+    <br>
+    <div>
+        <!-- precisa do atributo 'name' na tag input para enviar dos dados atraves do botao submit -->
+        <p>Login no E-mail</p>
+        <form action="">
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" id="usuario"><br>
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+            <input type="submit" value="Acessar">
+        </form>
+    </div>
+
+</body>
+
+</html>
