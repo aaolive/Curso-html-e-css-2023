@@ -1,0 +1,18 @@
+#cartao{
+    /* configura o tamanho do cartao */
+    width: 350px;
+    height: 200px;
+    
+    /* configura tipo da borda */
+    border-style: hidden;
+    border-radius: 4px;
+}
+
+#cartao{
+    background-color: rgb(65, 197, 220);
+}
+
+#logo-do-cartao{
+    width: 30px;
+    height: 30px;
+}
