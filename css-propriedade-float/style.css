@@ -1,0 +1,57 @@
+/*
+Usando propriedade 'clear' foi usada para permitir uma linha abaixo da outra,
+as div's linha  
+*/
+
+div {
+
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    /* position: absolute; */
+
+}
+
+#alfa {
+
+    background-color: #ED3107;
+
+    float: left;
+    /* position: absolute; */
+
+}
+
+#beta {
+
+    background-color: #1786EB;
+
+    float: left;
+    /* position: absolute; */
+
+}
+
+#gama {
+
+    background-color: #07EB98;
+
+    float: left;
+    /* position: absolute; */
+
+}
+
+#delta {
+
+    background-color: #e0a340;
+
+    float: left;
+    /* position: absolute; */
+
+}
+
+.linha {
+
+    width: 240px;
+
+    clear: both;
+
+}
