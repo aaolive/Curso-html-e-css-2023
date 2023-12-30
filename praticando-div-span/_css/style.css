@@ -15,4 +15,38 @@
 
     background-image: url("../_images/qvarias-bebidas-central.png");
     background-repeat: repeat-x;
+    
+    line-height: 1;
+}
+
+#rodape {
+    font-size: 70%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.musica {
+    font-style: italic;
+}
+
+.artista{
+    font-weight: bold;
+}
+
+/* 
+    Uso de pseudo-classe (pseudo seletores) para configurar css para um link <a>
+    Uso: elemento:propriedade
+*/
+#bebidas a:link{
+    color: green;
+}
+
+#bebidas a:visited{
+    color: red;
+}
+
+#bebidas a:hover{
+    color: yellow;
+    background: #f88396;
 }
