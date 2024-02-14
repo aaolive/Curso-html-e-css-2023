@@ -1,0 +1,86 @@
+#todo-conteudo {
+    width: 1200px;
+    background-color: azure;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* css de criação da tabela pela prop. display: table; */
+div#tableContainer {
+    display: table;
+    border-spacing: 10px;
+}
+
+/* css de definicao de linha da tabela -> display: table-row; */
+div#tableRow {
+
+    display: table-row;
+}
+
+/* css de criacao de celula da tabela css -> display: table-cell; */
+section#drinks {
+    display: table-cell;
+
+    background-color: deepskyblue;
+    width: 15%;
+    padding: 15px;
+    vertical-align: top;
+    font-size: 80%;
+}
+
+/* css de criacao de celula da tabela css -> display: table-cell; */
+section#main {
+
+    /* background: url(../_imagens/vista-superior-de-graos-de-cafe-em-um-fundo-branco.jpg) top left; */
+    background-color: burlywood;
+    font-size: 105%;
+    padding: 15px;
+    /* margin: 0px 10px 10px 10px; */
+
+    vertical-align: top; /* alinha ao top da celula*/
+    display: table-cell;
+}
+
+/* css de criacao de celula da tabela css com a prop. -> display: table-cell; */
+aside {
+
+    background-color: rgb(238, 227, 214);
+    /* background: url(../_imagens/vista-superior-de-graos-de-cafe-em-um-fundo-branco.jpg)bottom right; */
+    /* position: absolute; */
+    /* top: 128px; */
+    /* right: 0px; */
+    width: 280px;
+    padding: 15px;
+    /* margin: 0px 10px 10px 10px; */
+
+    display: table-cell;
+    vertical-align: top; /* alinha ao top da celula*/
+}
+
+footer {
+    background-color: bisque;
+    margin: 0px 10px 10px 10px;
+}
+
+header {
+    margin: 10px 10px 0px 10px;
+    background-color: darkkhaki;
+}
+
+#award {
+    position: absolute;
+    top: 30px;
+    left: 700px;
+}
+
+#coupon{
+    position: fixed;
+    top: 350px;
+    left: 0px;
+}
+
+#coupon a, img{
+    border: none;
+}

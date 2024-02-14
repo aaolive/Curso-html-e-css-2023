@@ -1,0 +1,29 @@
+#todo-conteudo {
+    width: 800px;
+    background-color: azure;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sidebar {
+    /* background-color: rgb(238, 227, 214); */
+    background: url(../_imagens/vista-superior-de-graos-de-cafe-em-um-fundo-branco.jpg) bottom right;
+    position: absolute;
+    top: 128px;
+    right: 0px;
+    width: 280px;
+    padding: 12px;
+    margin: 0px 10px 10px 10px;
+
+}
+
+#header {
+    height: 128;
+    background-color: rgb(192, 192, 192);
+}
+
+#main {
+    background: url(../_imagens/vista-superior-de-graos-de-cafe-em-um-fundo-branco.jpg) top left;
+}
