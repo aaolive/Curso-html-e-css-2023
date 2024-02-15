@@ -1,5 +1,5 @@
 #todo-conteudo {
-    max-width: 1200px;
+    max-width:  1200px;
     background-color: azure;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -20,7 +20,7 @@ div#tableRow {
 }
 
 /* css de criacao de celula da tabela css -> display: table-cell; */
-#drinks {
+section#drinks {
     display: table-cell;
 
     background-color: deepskyblue;
@@ -31,7 +31,7 @@ div#tableRow {
 }
 
 /* css de criacao de celula da tabela css -> display: table-cell; */
-#main {
+section#blog {
 
     /* background: url(../_imagens/vista-superior-de-graos-de-cafe-em-um-fundo-branco.jpg) top left; */
     background-color: burlywood;
@@ -44,7 +44,7 @@ div#tableRow {
 }
 
 /* css de criacao de celula da tabela css com a prop. -> display: table-cell; */
-#sidebar {
+aside {
 
     background-color: rgb(238, 227, 214);
     /* background: url(../_imagens/vista-superior-de-graos-de-cafe-em-um-fundo-branco.jpg)bottom right; */
@@ -59,12 +59,12 @@ div#tableRow {
     vertical-align: top; /* alinha ao top da celula*/
 }
 
-#footer {
+footer {
     background-color: bisque;
     margin: 0px 10px 10px 10px;
 }
 
-#header {
+header {
     margin: 10px 10px 0px 10px;
     background-color: darkkhaki;
 }
