@@ -64,9 +64,14 @@ footer {
     margin: 0px 10px 10px 10px;
 }
 
-header {
+header.top {
     margin: 10px 10px 0px 10px;
     background-color: darkkhaki;
+    height: 108px;
+}
+
+header.top img#headerSlogan {
+    float: right;
 }
 
 #award {
