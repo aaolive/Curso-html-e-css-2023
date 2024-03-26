@@ -1,5 +1,5 @@
 #todo-conteudo {
-    max-width:  1200px;
+    max-width: 1200px;
     background-color: azure;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -88,4 +88,60 @@ header.top img#headerSlogan {
 
 #coupon a, img{
     border: none;
+}
+
+/* Estilo para o menu de navegação */
+/*
+ul {
+    background-color: #efe5d0;
+    margin: 10px 10px 0px 10px;
+    list-style-type: none;
+    padding: 5px 0px 5px 5px;
+}
+
+ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+ul li a:link,
+ul li a:visited {
+    color: #954b4b;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+ul li.selected {
+    
+    background-color: #c8b99c;
+}
+*/
+
+/* Estilo do nav */
+nav {
+    background-color: #efe5d0;
+    margin: 10px 10px 0px 10px;
+}
+
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 5px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #954b4b;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+/* cor para o link de menu selecionado */
+nav ul li.selected {
+    background-color: #c8b99c;
 }
